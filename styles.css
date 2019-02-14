@@ -1,0 +1,141 @@
+/* Body */
+body{
+    background-color: #EDEDED; 
+}
+
+.floatleft{
+    float: left;
+}
+/* Navbar */
+.navbar{
+    max-height: 57px; 
+}
+.navbar-brand{
+    color: white; 
+    margin-left: 30px; 
+    font-weight: bold; 
+    background-color: #0BADA6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: white; 
+    font-size: 15px; 
+}
+a{
+    color: #6D8092;
+    font-size: 15px; 
+}
+
+.page-header{
+    padding-bottom: 9px;
+    margin: 30px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+.page-header1{
+    padding-top: 2px;
+    padding-bottom: 10px;
+    margin: 9px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Title Class  */
+.title{
+    color: #0BADA6;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+}
+/* Paragraph Element */
+p{
+ color: #6D8092;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 17px; 
+}
+.box{
+    padding:10px 10px 10px 10px;
+    background: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.box1{
+    padding:10px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.box2{
+    padding:1px 10px 10px 10px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+/* Table */
+  .table{
+    font-size: 15px; 
+    border-top-color: white; 
+}
+/* Footer */
+footer{
+background-color: #666666; 
+border-top-style: solid; 
+border-top-width: 5px; 
+border-top-color: #0BADA6;
+color: white; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px; 
+text-align: center; 
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+/* Data */
+.data-panel {
+margin-bottom: 20px;
+background-color: #fff;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.panel-default{
+border-color: #ddd;
+}
+.panel-body{
+padding: 15px;
+}
+.data-table{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.table-bordered{
+    border: 1px solid #ddd
+}
+
+/* Media Queries */
+@media(max-width: 992px){
+.navbar-expand-lg{
+background-color: #0BADA6;
+}
+.navbar{
+    max-height: none; 
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit; 
+    background-color: white;  
+}
+.navbar-brand{
+    padding: 10px; 
+}
+}

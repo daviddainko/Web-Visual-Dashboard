@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NW Web Visualization</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+         crossorigin="anonymous">
+        <link rel='stylesheet' type = 'text/css' href='styles.css'>
+    </head>
+
+<body>
+<!-- Navigation Section -->
+<div class='container'>
+        <nav class='navbar navbar-expand-lg'>
+            <a class='navbar-brand' style='background-color: #0bada6;' href='index.html'>Latitude</a>
+            <ul class='nav navbar-nav navbar-right'>
+                <li class='dropdown'>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class='dropdown-menu'>
+                        <li><a href='maxtemperature.html'>Max Temperature</a></li>
+                        <li><a href='humdity.html'>Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href='windspeed.html'>Wind Speed</a></li>
+                    </ul>
+                <li><a href='comparison.html'>Comparison</a></li>
+                <li><a href='data.html'>Data</a></li>
+
+
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Content Section -->
+<div class='container'>
+    <div class='row'>
+        <div class='col-md-12 col-lg-7'>
+            <!-- Left Box -->
+            <div class='box1' style='padding-bottom: 5px;'>
+            <h3 class='title'>Humidity</h3>
+            <hr>
+            <img src="Resources/assets/images/Fig2.png" alt="Humidity Graph" height="100%" width="100%">
+            <p class=p2>There does not appear to be a strong correlation between humidity and latitude. This could be due to the fact that
+                humidity can be affected by local features (i.e. rivers, lakes, etc.) that increase the amount of water in the air
+                in a region to amounts higher than the local average. 
+            </p>
+            </div>
+        </div>
+        <div class='col-md-12 col-lg-5'>
+            <!-- Right box -->
+            <div class='box2'>
+                <div class='page-header'>
+                    <h3 class='title'>Visualizations</h3>
+                </div>
+                <div class='box'>
+                    <a href='maxtemperature.html'>
+                        <img src="Resources/assets/images/Fig1.png" alt="Max Temperature Image" height="160" width="160">
+                    </a>
+                    <a href="humidity.html">
+                        <img src="Resources/assets/images/Fig2.png" alt="Humidity Graph" height="160" width="160">
+                    </a>
+                    <a href="cloudiness.html">
+                        <img src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph" height="160" width="160">
+                    </a>
+                    <a href="windspeed.html">
+                        <img src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph" height="160" width="160">
+                    </a>
+                </div>
+
+                </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer>
+    <div class='footer'>Copyright &copy; David Dainko 2019</div>
+</footer>
+     
+        <!-- Bootstrap JS -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+     -->
+
+</body>
+
+
+
+</html>
